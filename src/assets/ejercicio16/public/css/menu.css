@@ -1,0 +1,39 @@
+#header div#sec-menu #logo{float:left;border:none; margin:3px auto; }
+
+#header #menu ul {
+	float:right;
+	width:630px;
+	margin:25px auto;
+    padding:0;
+    list-style:none;
+}
+#header #menu ul  li {
+	float:left;
+	width:120px;
+	height:10px;
+	margin:0.1em;
+	padding:2px;
+}
+#header #menu ul li a {
+	display:block;
+	padding:.5em;	
+	text-decoration:none;
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bolder;
+	color:#FFF;
+}
+#header #menu ul li a:hover{
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#header #menu li.activo a{
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
